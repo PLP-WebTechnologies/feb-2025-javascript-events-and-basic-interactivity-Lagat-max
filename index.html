@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive webpage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Scenic Webpage</h1>
+
+  <!-- Event Button -->
+  <button id="magicBtn">Click Here</button>
+
+  <!-- Hoverable Element -->
+  <div id="hoverBox">Hover over here</div>
+
+  <!-- Keypress Display -->
+  <p id="keyOutput">Press any key...</p>
+
+  <!-- Secret Double-click Box -->
+  <div id="secretBox">Double-click for a surprise!</div>
+
+  <!-- Accordion -->
+  <div class="accordion">
+    <button class="accordion-btn">Toggle Info</button>
+    <div class="accordion-content">
+      <p>Not available, hidden.</p>
+    </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <label>Username: <input type="Username" id="Username" required /></label>
+    <label>Password: <input type="password" id="password" required /></label>
+    <button type="submit">Sign Up</button>
+    <p id="formMessage"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
